@@ -91,3 +91,21 @@ body {
     border: 10px solid #E02B6D;
     border-radius: 50%;
 }
+
+hr {
+    border-top: dotted #E02B6D 6px;
+    width: 200px;
+}
+
+.desc {
+    display: flex;
+    margin: 0 100px;
+}
+
+.desc-img img{
+    height: 300px;
+}
+
+.desc-text {
+    padding: 50px;
+}
