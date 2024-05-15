@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+.gradient-background {
+    background-image: linear-gradient(to right, #C27EE0 , #E08982);
+    background-size: 180% 180%;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.title-text {
+    font-family: "Righteous", sans-serif;
+    font-size: 5rem;
+    color: #E02B6D;
+}
+
+.sub-text {
+    font-family: 'Nunito';
+    font-size: 2rem;
+    color: #E02B6D;
+}
+
+.header-text {
+    font-family: "Righteous", sans-serif;
+    color: #E02B6D;
+    font-size: 2.5rem;
+}
+
+.text {
+    font-family: 'Nunito';
+    font-size: 1.5rem;
+}
+
+.sticker {
+    height: 100px;
+    position: absolute;
+}
+
+.acheron {
+    rotate: -18deg;
+    top: 20px;
+    right: 120px;
+}
+
+.rubiks {
+    rotate: -15deg;
+    top: 255px;
+    left: 110px;
+}
+
+.raiden {
+    rotate: 17deg;
+    top: 10px;
+    left: 118px;
+}
+
+.controller {
+    rotate: 13deg;
+    top: 255px;
+    right: 116px;
+}
+
+.bs {
+    rotate: -21deg;
+    bottom: 10px;
+    right: 125px;
+}
+
+.miko {
+    rotate: 28deg;
+    bottom: 20px;
+    left: 130px;
+}
+
+@media screen and (max-width: 321px) {
+    .controller, .rubiks {
+        top: 360px;
+    }
+}
+
+.profile-icon {
+    height: 200px;
+    width: 200px;
+    border: 10px solid #E02B6D;
+    border-radius: 50%;
+}
