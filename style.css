@@ -24,7 +24,7 @@ body {
 .sub-text {
     font-family: 'Nunito';
     font-size: 2rem;
-    color: #E02B6D;
+    color: #480AA6;
 }
 
 .header-text {
@@ -35,7 +35,8 @@ body {
 
 .text {
     font-family: 'Nunito';
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: #480AA6;
 }
 
 .sticker {
@@ -88,7 +89,7 @@ body {
 .profile-icon {
     height: 200px;
     width: 200px;
-    border: 10px solid #E02B6D;
+    border: 5px solid #480AA6;
     border-radius: 50%;
 }
 
@@ -100,12 +101,28 @@ hr {
 .desc {
     display: flex;
     margin: 0 100px;
+    font-family: "Righteous", sans-serif;
+    font-size: 1.5rem;
+    color: #E02B6D;
 }
 
 .desc-img img{
-    height: 300px;
+    height: 250px;
+    border-radius: 15px;
 }
 
 .desc-text {
     padding: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .desc {
+        flex-direction: column;
+    }
+    .desc-img {
+        height: 200px;
+    }
+    .desc-text {
+        margin: 10px;
+    }
 }
