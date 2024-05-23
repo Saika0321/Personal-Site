@@ -15,6 +15,16 @@ body {
     position: relative;
 }
 
+.intro {
+    display: flex;
+}
+
+.intro-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
 .title-text {
     font-family: "Righteous", sans-serif;
     font-size: 5rem;
@@ -127,5 +137,35 @@ hr {
     }
     .info-text {
         margin: 10px;
+    }
+
+    .sticker {
+        height: 80px;
+    }
+
+    
+    .header-text {
+        font-family: "Righteous", sans-serif;
+        color: #E02B6D;
+        font-size: 1.5rem;
+    }
+    .title-text {
+        font-family: "Righteous", sans-serif;
+        font-size: 2.5rem;
+        color: #E02B6D;
+    }
+
+    .profile-icon {
+        height: 150px;
+        width: 150px;
+        border: 5px solid #480AA6;
+        border-radius: 50%;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+    .intro-icon {
+        justify-content: center;
     }
 }
